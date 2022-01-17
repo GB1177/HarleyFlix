@@ -1,0 +1,198 @@
+:root{
+    --laranja:#C93413;
+    --preto:#000000;
+    --branco:#ffffff;
+    --cinza: #AAA;
+    --cinza-escuro:rgb(34, 34, 34);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--cinza-escuro);
+    font-family: 'Arial', Times, serif;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--laranja);
+    font-family: 'Arial Black', times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--laranja);
+}
+
+/*Moto principal*/
+
+.moto-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/HD-LowRiderS.jpg);
+   
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-top: 15px;
+    margin-bottom: 90px;
+
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao{
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 5%;
+    color: var(--branco);
+
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: var(--laranja);
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.moto-principal .container{
+    width: 65%;
+}
+
+.box-motos{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*Carrosel*/
+
+.carousel-motos{
+    background-color: var(--cinza-escuro);
+    margin-top: 5px;
+}
+
+/*Ficha técnica Low Rider S*/
+
+.titulo-ficha{
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.paragrafo{
+    padding: 5px;
+}
+
+/*Iron883 imagem principal*/
+
+.iron883-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/HD-883.jpg);
+   
+    height: 400px;
+    background-size: cover;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagens-carousel{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*Street bob*/
+
+.streetbob-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/HD-StreetBob-05.jpg);
+   
+    height: 400px;
+    background-size: cover;
+    padding-bottom: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.imagens-carousel-street{
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
+/*Blackline*/
+
+.blackline-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/HD-Blackline-02.jpg);
+   
+    height: 400px;
+    background-size: cover;
+    padding-bottom: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*Breakout*/
+
